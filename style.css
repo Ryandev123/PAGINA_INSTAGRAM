@@ -127,12 +127,23 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
+.texts {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem;
+    margin-top: 1rem;
+} 
 /* media queries */
 
 
 @media (max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
+    }
+    .texts {
+        display: none;
     }
 }
 
@@ -156,4 +167,9 @@ body {
     .group {
         border: 1px solid transparent;
     }
+    .texts {
+        width: 100%;
+        border: 1px solid transparent;
+    }
+
 }
